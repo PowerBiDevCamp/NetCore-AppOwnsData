@@ -14,11 +14,11 @@ Your developer workstation must be configured to allow for the execution of Powe
 ## :scroll: Downloading and configuring this sample application.
 Once you have installed the prequisite software and developer tools, you must complete the following steps to run this sample application on your development workstation.
 
- - Download the code for the **UserOwnsData** project.
-    1. Download the [ZIP archive](https://github.com/TedPattison/NetCore-UserOwnsData/archive/master.zip)  with the UserOwnsData project **or**
-    2. Run the GIT command `git clone https://github.com/TedPattison/NetCore-UserOwnsData.git`
- - Open the **UserOwnsData** project in Visual Studio Code.
- - Run the PowerShell script named [`CreateAzureADApplication.ps1`](https://github.com/TedPattison/NetCore-UserOwnsData/blob/master/CreateAzureADApplication.ps1) to create a new Azure AD application. 
+ - Download the code for the **AppOwnsData** project.
+    1. Download the [ZIP archive](https://github.com/PowerBiDevCamp/NetCore-AppOwnsData/archive/master.zip)  with the AppOwnsData project **or**
+    2. Run the GIT command `git clone https://github.com/PowerBiDevCamp/NetCore-AppOwnsData.git`
+ - Open the **AppOwnsData** project in Visual Studio Code.
+ - Run the PowerShell script named [`CreateAzureADApplication.ps1`](https://github.com/PowerBiDevCamp/NetCore-AppOwnsData/blob/master/CreateAzureADApplication.ps1) to create a new Azure AD application. 
     1. When you run the open Notepad with JSON configuration data for the Azure AD application
     2. You must copy this JSON into the clipboard for the next step 
  - Paste the JSON configuration data for the Azure AD Application into `appsettings.json`.
